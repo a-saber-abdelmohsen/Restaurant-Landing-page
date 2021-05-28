@@ -1,0 +1,70 @@
+.registration {
+
+    background: linear-gradient(to right, rgba($main-blue, 1), rgba($main-green, 0.7)),
+        url('../img/free-delivery-background.jpg') left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &__logo {
+        img {
+            width: 100px !important;
+            animation: logo-animation 2s ease-in-out infinite;
+        }
+    }
+
+
+}
+
+#log-in {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+@keyframes logo-animation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-height: 670px) {
+    .registration {
+        &__logo {
+            img {
+                animation: none;
+            }
+        }
+    }
+}
+
+@media (max-height: 610px) {
+    .registration {
+        &__logo {
+            img {
+                width: 75px !important;
+                padding: 10px 0;
+            }
+        }
+    }
+}
+
+@media (max-height: 570px) {
+    .registration {
+        &__logo {
+            img {
+                width: 50px !important;
+            }
+        }
+    }
+}

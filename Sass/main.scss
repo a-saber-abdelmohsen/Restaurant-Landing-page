@@ -1,0 +1,49 @@
+@import './colors';
+@import './nav';
+@import './header';
+@import './menu';
+@import './promo';
+@import './order';
+@import './social';
+@import './register';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+hrml,
+body {
+    font-family: 'Monda', sans-serif;
+    font-size: 1rem;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.svg {
+    width: 100%;
+}
+
+.bottom-wave {
+    // fix a bug in small devices "1px of background appears under the wave"
+    position: relative;
+    top: 2px;
+}
+
+// .top-wave {
+//     // fix a bug in small devices "1px of background appears under the wave"
+//     position: relative;
+//     top: 2px;
+// }
+
+.custom-button {
+    border-radius: 50px !important;
+    padding: 1rem 4rem !important;
+    letter-spacing: 3px;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        transform: scale(0.98);
+    }
+}

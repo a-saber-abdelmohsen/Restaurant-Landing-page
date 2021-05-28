@@ -1,0 +1,26 @@
+#navbar {
+    background-color: $main-blue !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+#logo {
+    width: 50px;
+    color: white !important;
+}
+
+#join-us {
+    border: 1px solid white;
+    border-radius: 3px;
+    transition:all 0.1s ease-in-out;
+
+    &:hover {
+        background-color: white;
+        color: $main-blue !important;
+        
+    }
+}

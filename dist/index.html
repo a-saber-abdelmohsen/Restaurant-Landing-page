@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/8d755fdf5b.js" crossorigin="anonymous"></script>
+    <title>Healthy Food Restaurant</title>
+</head>
+
+<body>
+    <!-- navbar starts -->
+    <nav id="navbar" class=" navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img id="logo" src="./img/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item ms-5">
+                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link" href="#menu">Our Menu</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link" href="#promo">Promo</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link" href="#order">Order</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link" href="./register.html" id="join-us">Join us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- header starts -->
+    <div class="container-fluid bg-main-blue g-0">
+        <div class="container-fluid page-header">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 pt-5">
+                    <h1 class="header text-center">
+                        Healthy Food Restaurant
+                    </h1>
+
+                    <h2 class="sub-header text-center p-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </h2>
+                </div>
+            </div>
+            <div class="white-dots">
+                <img src="./img/white-dots.svg" alt="">
+            </div>
+            <!-- end wave -->
+            <svg class="svg top-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#dbebc1" fill-opacity="1"
+                    d="M0,288L48,250.7C96,213,192,139,288,101.3C384,64,480,64,576,90.7C672,117,768,171,864,202.7C960,235,1056,245,1152,213.3C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    <!-- header ends -->
+
+
+
+    <!-- menu starts -->
+    <section class="container-fluid bg-main-green" id="menu">
+
+        <div class="container-fluid">
+            <h2 class="h1 main-blue text-center fw-bold mb-5 text-uppercase">Popular Menu</h2>
+
+            <div class="row justify-content-evenly">
+                <!-- menu meal 1 -->
+                <div class="col-lg-3 col-md-6" role="button">
+                    <div class="card  mt-3">
+                        <img src="./img/menu1.jpg" class="card-img-top img-fluid" id="profile-card-img" alt="...">
+                        <div class="container my-3">
+                            <h3 class="dark-text fw-bold">Garlic Shrimp</h3>
+                            <p class="h5 dark-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                            <h3 class="dark-text fw-bold mt-4">$13</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu meal 2 -->
+                <div class="col-lg-3 col-md-6" role="button">
+                    <div class="card mt-3">
+                        <img src="./img/menu2.jpg" class="card-img-top img-fluid" id="profile-card-img" alt="...">
+                        <div class="container my-3">
+                            <h3 class="dark-text fw-bold">Pesto Pasta</h3>
+                            <p class="h5 dark-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                            <h3 class="dark-text fw-bold mt-4">$11</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu meal 3 -->
+                <div class="col-lg-3 d-lg-block d-md-none d-block" role="button">
+                    <div class="card mt-3">
+                        <img src="./img/menu3.jpg" class="card-img-top img-fluid" id="profile-card-img" alt="...">
+                        <div class="container my-3">
+                            <h3 class="dark-text fw-bold">Spicy Torly</h3>
+                            <p class="h5 dark-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                            <h3 class="dark-text fw-bold mt-4">$15</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button class="btn btn-lg text-uppercase bg-main-blue white custom-button">Show More</button>
+        </div>
+
+
+    </section>
+    <!-- menu Ends -->
+
+    <!-- promo starts -->
+    <section class="content-fluid" id="promo">
+        <div class="row align-items-center">
+            <div class="col-md-6 g-0 promo-img col-12">
+                <img src="./img/promo1.jpg" class="w-100" alt="">
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="container promo-text">
+                    <h3 class="display-3 fw-bold dark-text promo-title">Discount up to 50% All Menu</h3>
+                    <p class="h3 w-75 dark-text fw-normal mt-4 mb-0 promo-details">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis, quis
+                        provident quidem iusto commodi, officia, doloribus quibusdam laudantium numquam in!
+                    </p>
+                    <div>
+                        <button class="btn btn-lg text-uppercase bg-main-blue white custom-button">read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center ">
+            <div class="col-md-6 col-12">
+                <div class="container promo-text">
+                    <h3 class="display-3 fw-bold dark-text promo-title">Discount up to 50% All Menu</h3>
+                    <p class="h3 w-75 dark-text fw-normal mt-4 mb-0 promo-details">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Id debitis, quis
+                        provident quidem iusto commodi, officia, doloribus quibusdam laudantium numquam in!
+                    </p>
+                    <div>
+                        <button class="btn btn-lg text-uppercase bg-main-blue white custom-button">read more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 g-0 promo-img col-12">
+                <img src="./img/promo2.jpg" class="w-100" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- promo ends -->
+
+    <!-- order starts -->
+    <section class="container-fluid bg-main-blue" id="order">
+        <div class="container py-5 ">
+            <h2 class="text-center white text-uppercase fw-bold order-title">How to order</h2>
+            <div class="row text-center white">
+                <!-- order 01 -->
+                <div class="col-md-4">
+                    <h3 class="order-icon h1 fw-bold d-inline-block bg-white main-blue p-4 rounded-circle my-5">01</h3>
+                    <h3 class="h1">Order</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint pariatur dolorem dignissimos
+                        quaerat tempora earum id in culpa.
+                    </p>
+                </div>
+
+                <!-- order 02 -->
+                <div class="col-md-4">
+                    <h3 class="order-icon h1 fw-bold d-inline-block bg-white main-blue p-4 rounded-circle my-5">02</h3>
+                    <h3 class="h1">Choose Menu</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint pariatur dolorem dignissimos
+                        quaerat tempora earum id in culpa.
+                    </p>
+                </div>
+
+                <!-- order 03 -->
+                <div class="col-md-4">
+                    <h3 class="order-icon h1 fw-bold d-inline-block bg-white main-blue p-4 rounded-circle my-5">03</h3>
+                    <h3 class="h1">Delivery</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint pariatur dolorem dignissimos
+                        quaerat tempora earum id in culpa.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- order ends -->
+
+    <!-- free Delivery -->
+    <section class="container-fluid text-center" id="free-delivery">
+        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+            <h2 class="display-2 col-12 fw-bold main-blue">Free Delivery</h2>
+            <p class="h3 col-md-8 col-11 main-blue fw-light ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, doloremque. Id, aspernatur minus. Eos
+                veritatis recusandae id nulla amet?
+            </p>
+            <div>
+                <button class="btn btn-lg text-uppercase bg-main-blue white custom-button">get voucher</button>
+            </div>
+        </div>
+    </section>
+    <!-- free Delivery ends -->
+
+    <!-- social starts -->
+    <section class="container-fluid bg-main-green text-center main-blue g-0" id="social-container">
+
+        <!-- blue dots -->
+        <div class="blue-dots">
+            <img src="./img/main-blue-dots.svg" id="top-blue-dots" alt="">
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center" id="social">
+            <h2 class="display-2">
+                <i class="fas fa-quote-left mb-3"></i>
+            </h2>
+            <p class="h3 col-md-8 col-10 main-blue fw-light my-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, doloremque. Id, aspernatur minus. Eos
+                veritatis recusandae id nulla amet?
+            </p>
+            <h2 class="h1 my-4">Agus Waiter</h2>
+            <div class="d-flex flex-colum col-5 display-4 my-4 justify-content-center">
+                <i role="button" class="fab fa-facebook mx-3 social-icons"></i>
+                <i role="button" class="fab fa-twitter mx-3 social-icons"></i>
+                <i role="button" class="fab fa-instagram mx-3 social-icons"></i>
+            </div>
+        </div>
+
+        <!-- blue dots -->
+        <div class="blue-dots">
+            <img src="./img/main-blue-dots.svg" alt="">
+        </div>
+
+        <!-- end wave -->
+        <svg class="svg bottom-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#6788b1" fill-opacity="1"
+                d="M0,288L48,250.7C96,213,192,139,288,101.3C384,64,480,64,576,90.7C672,117,768,171,864,202.7C960,235,1056,245,1152,213.3C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+
+
+    </section>
+    <!-- social ends -->
+
+
+
+    <!-- about starts -->
+    <section id="about" class="container-fluid bg-main-blue white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-3">
+                    <h3 class="mb-md-5 mb-3">About</h3>
+                    <p class="h5 fw-light">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius officia obcaecati assumenda,
+                        beatae nesciunt pariatur expedita ea doloribus excepturi aliquam. Nihil atque non aliquam?
+                    </p>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <div class="row justify-content-end">
+                        <div class="col-4 col-md-3">
+                            <h4 class="mb-md-5 mt-3 mt-md-1">About</h4>
+                            <ul class="list-unstyled text-decoration-none">
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Join us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Ethic
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Goals
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-md-3">
+                            <h4 class="mb-md-5 mt-3 mt-md-1">About</h4>
+                            <ul class="list-unstyled text-decoration-none">
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Join us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Ethic
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Goals
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-4 col-md-3">
+                            <h4 class="mb-md-5 mt-3 mt-md-1">About</h4>
+                            <ul class="list-unstyled text-decoration-none">
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Join us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Ethic
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none white">
+                                        Goals
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- about ends -->
+
+    <footer class="bg-main-green container-fluid py-2">
+
+        <h5>Much Appreciated:</h5>
+        <div>
+            <p>
+                Logo Icon made by <a target="_blank" href="https://www.flaticon.com/authors/pixel-perfect"
+                    title="Pixel perfect">Pixel
+                    perfect</a> from <a target="_blank" href="https://www.flaticon.com/"
+                    title="Flaticon">www.flaticon.com</a>
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Photoshop Design made by <a
+                    href="https://www.freepik.com/free-psd/restaurant-opening-web-template-design_6570172.htm#page=1&query=Website%20templates&position=46#position=46&page=1&query=Website%20templates"
+                    target="_blank" title="freepik">Freepik</a>
+
+            </p>
+        </div>
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

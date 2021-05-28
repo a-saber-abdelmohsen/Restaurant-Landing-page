@@ -1,0 +1,31 @@
+$main-blue: #6788b1;
+$main-green: #dbebc1;
+
+
+.bg-main-blue {
+    background-color: $main-blue !important;
+}
+
+.bg-main-green {
+    background-color: $main-green !important;
+}
+
+.bg-white{
+    background-color: white !important;
+}
+
+.main-blue {
+    color: $main-blue !important;
+}
+
+.main-green {
+    color: $main-green !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.dark-text {
+    color: #565555 !important;
+}

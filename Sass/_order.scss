@@ -1,0 +1,49 @@
+#order {
+    overflow: hidden;
+
+    .order-title {
+        font-size: 3rem;
+    }
+}
+
+#free-delivery {
+    background: 
+        linear-gradient(to right, rgba($main-green, 0.7),rgba($main-green, 0.3)),
+        url('../img/free-delivery-background.jpg') left top;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    p, h2 {
+        // text-shadow: 0.3px 0.3px 3px white;
+        letter-spacing: 3px;
+    }
+    
+    .custom-button {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #free-delivery {
+        .custom-button {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    #free-delivery {
+        .custom-button {
+            font-size: 1rem;
+        }
+    }
+
+    #order {
+        .order-title {
+            font-size: 2rem;
+        }
+    }
+}
